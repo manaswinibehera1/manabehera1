@@ -6,14 +6,17 @@ int main ()
 {
 //declare variables
 int a,b;
-int sum,diff,mult,div,mod;
+float c;
+int sum,diff,mult,mod;
+float div;
 a = 10;
 b = 5;
+c = 3;
 //process
 sum = a + b;
 diff = a - b;
 mult = a * b;
-div = a / b;
+div = a / c;
 mod = a % b;
 //print out the result
 cout << "Sum of a and b is" << sum << endl;
